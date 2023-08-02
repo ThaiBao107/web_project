@@ -1,0 +1,134 @@
+h1{
+    height: 60px;
+    background-image: url("https://freenice.net/wp-content/uploads/2021/10/Background-do-cuc-an-tuong-va-doc-dao.jpg");
+    background-position: -8px;
+    color:burlywood;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+    line-height: 60px;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{text-decoration: none;}
+.nav 
+{
+    display: flex;
+    background-color: rgb(193, 195, 194);
+    height: 40px;
+}
+
+.nav ul:last-child{
+    margin-left: auto;
+    display: flex ;
+}
+
+.nav ul:first-child
+{
+    display: flex;
+}
+
+.nav ul li{
+    width: 120px;
+    margin-right: 1px;
+    text-align: center;
+    line-height: 40px;
+}
+/*  menu */
+.nav ul li:hover a{
+    display: block;
+    background-color:rgb(183, 215, 220);
+    font-weight: bold;
+    color:black;
+    border-right: white 1px solid;
+    border-left: white 1px solid;
+}
+
+
+.nav > ul .sub_content
+{
+    display: none;
+}
+
+
+
+.nav > ul .sub_content li:hover a{
+    display: block;
+    background-color:rgb(152, 219, 219);
+    border-bottom: 1px white solid;
+    border-top: white 1px solid;
+    margin-bottom: 1px;
+}
+
+.sub:hover .sub_content 
+{
+    display: block;
+    position: absolute;
+}
+
+/* --------------------------------------------*/
+
+.container .item_1
+{
+    height: 400px;
+    width: auto;
+    background-image: url("https://haycafe.vn/wp-content/uploads/2021/12/Hinh-nen-mau-trang-3.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+    line-height: 100px;
+}
+
+.container .item_1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .item_1 div 
+{
+    width: 200px;
+    height: 250px;
+    background-color: aquamarine;
+    border: 1px white solid;
+    margin: 80px;
+    border: 2px slategray solid;
+    transition: transform 2s;
+}
+
+.container .item_1 div:hover{
+    transform:scale(1.4);
+    
+}
+
+
+.container .item_1 div:first-child
+{
+    background-image: url("https://www.cgv.vn/media/catalog/product/cache/1/image/c5f0a1eff4c394a251036189ccddaacd/c/o/conan_movie_26_-_vietnamese_poster.jpg");
+    background-size:contain;
+}
+
+.container .item_1 div:nth-child(2)
+{
+    background-image: url("https://upload.wikimedia.org/wikipedia/vi/d/de/Boys_Over_Flowers_Poster.jpg");
+    background-size: cover;
+}
+
+.container .item_1 div:nth-child(3)
+{
+    background-image: url("https://upload.wikimedia.org/wikipedia/vi/6/6f/%C3%81p_ph%C3%ADch_phim_Nh%C3%A0_b%C3%A0_N%E1%BB%AF.jpg");
+    background-size: cover;
+}
+
+.container .item_1 div:last-child{
+    background-image: url("https://afamilycdn.com/150157425591193600/2020/3/5/764a-ipmxpvz8365009-15824412236671925247337-1583216030454527622259-15833972284551833131400.jpg");
+    background-size: cover;
+}
+
+
+
+
+
